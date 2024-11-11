@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="corpo">
+        <div class="Calculadora">
+            <tr>
+                <td><input type="text" name="" class="tela"></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn_ac" onclick="btn_ac()">AC</button></td>
+                <td><button class="btn bnt_del" onclick="bnt_del()">DE</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num('.')">.</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn bnt_num" onclick="bnt_num(7)">7</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num(8)">8</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num(9)">9</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn bnt_num" onclick="bnt_num(4)">4</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num(5)">5</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num(6)">6</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn bnt_num" onclick="bnt_num(1)">1</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num(2)">2</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num(3)">3</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn bnt_num" onclick="bnt_num(0)">0</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_raiz('')">RAIZ</button></td>
+                <td><button class="btn bnt_num" onclick="bnt_num('**')">POTE</button></td>
+                <td><button class="btn  bnt_eql" onclick="bnt_eql()">=</button></td>
+            </tr>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
